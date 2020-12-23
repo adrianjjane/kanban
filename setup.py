@@ -6,6 +6,7 @@ setup(
   install_requires=[
     'django',
     'django-environ',
+    'django-debug-toolbar',
   ],
   python_requires='>=3.6',
 )

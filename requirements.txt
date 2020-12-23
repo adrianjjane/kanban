@@ -5,7 +5,8 @@
 #    pip-compile
 #
 asgiref==3.3.1            # via django
+django-debug-toolbar==3.2  # via kanban (setup.py)
 django-environ==0.4.5     # via kanban (setup.py)
-django==3.1.4             # via kanban (setup.py)
+django==3.1.4             # via django-debug-toolbar, kanban (setup.py)
 pytz==2020.4              # via django
-sqlparse==0.4.1           # via django
+sqlparse==0.4.1           # via django, django-debug-toolbar
